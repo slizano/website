@@ -19,6 +19,10 @@ time, mark, audio, video {
     background:transparent;
 }
 
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
 /* Desktop */
 @media only screen and (min-width : 1025px) {
 
@@ -28,7 +32,6 @@ time, mark, audio, video {
 	}
 
 	body {
-		font-family: 'Roboto', sans-serif;
 		color:white;
 		font-size: 12px;
 	}
@@ -51,6 +54,7 @@ time, mark, audio, video {
 		position: absolute;
 		bottom: 0;
 		right: 0;
+		transition: 1s width ease;
 	}
 
 	.navigation {
@@ -123,7 +127,7 @@ time, mark, audio, video {
 
 	.illustration.item a:hover {
 		background-image: url(../images/ill3.png);
-	 }
+	}
 
 	.fine-arts.item a {
 		background-image: url(../images/fa2.png);
@@ -131,7 +135,7 @@ time, mark, audio, video {
 
 	.fine-arts.item a:hover {
 		background-image: url(../images/fa3.png);
-	 }
+	}
 
 	 .design.item a {
 		background-image: url(../images/design.png);
@@ -139,7 +143,7 @@ time, mark, audio, video {
 
 	.design.item a:hover {
 		background-image: url(../images/design2.png);
-	 }
+	}
 
 	.content {
 		width:100%;
@@ -182,7 +186,6 @@ time, mark, audio, video {
 	}
 
 	body {
-		font-family: 'Roboto', sans-serif;
 		color:white;
 		font-size: 12px;
 	}
@@ -205,6 +208,7 @@ time, mark, audio, video {
 		position: absolute;
 		bottom: 0;
 		right: 0;
+		transition: 1s width ease;
 	}
 
 	.navigation {
@@ -331,7 +335,6 @@ time, mark, audio, video {
 	}
 
 	body {
-		font-family: 'Roboto', sans-serif;
 		color:white;
 		font-size: 12px;
 	}
