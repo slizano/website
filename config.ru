@@ -1,6 +1,5 @@
-use Rack::Static,
-  :urls => ["/index.html", "/images", "/img", "/js", "/stylesheets"],
-  :root => "public"
+# http://rack.rubyforge.org/doc/Rack/Static.html
+use Rack::Static, :urls => [""], :root => "public", :index => "index.html"
 
 run lambda { |env|
   [
