@@ -71,6 +71,12 @@ body {
 	margin:30px 0 16px 0;
 }
 
+.social img {
+	margin:20px 0 0 0;
+	padding-right:5px;
+	width:40px;
+}
+
 
 /* Desktop */
 @media only screen and (min-width : 1025px) {
@@ -169,12 +175,6 @@ body {
 		margin-bottom:30px;
 	}
 
-	.social img {
-		margin:10px 0 0 0;
-		padding-right:5px;
-		width:30px;
-	}
-
 }
 
 /* Tablet */
@@ -240,12 +240,6 @@ body {
 		margin-bottom:30px;
 	}
 
-	.social img {
-		margin:3% 0 0 0;
-		padding-right:5px;
-		width:20px;
-	}
-
 }
 
 /* Mobile */
@@ -257,22 +251,13 @@ body {
 
 	}
 
-	.logo img{
-		width:50%;
-		z-index: 8000;
-		bottom: 0;
-		right: 0;
-		transition: 1s width ease;
-		margin:40px 0 0 170px;
-}
-
 	.right {
 		margin:0 0 0 200px;
 
 	}
 
 	.header-index p {
-		display: none;
+		font-size: 3em;
 	}
 
 	.header {
@@ -312,12 +297,6 @@ body {
 	.text {
 		width: 570px;
 		margin:30px 0 30px 0;
-	}
-
-	.social img {
-		margin:3% 0 0 0;
-		padding-right:5px;
-		width:20px;
 	}
 
 }
