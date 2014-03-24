@@ -109,15 +109,16 @@ body {
 }
 
 .footer{
-	background-color: white;
+	background-color: #171717;
 	width:100%;
 	padding:0 0 0 30% ;
 	z-index:9000;
+	
 	position: absolute;
 }
 
 .buttons {
-	margin:10% 0 10% 35%;
+	margin:7% 0 7% 7%;
 }
 
 .buttons img {
@@ -125,14 +126,15 @@ body {
 	margin-left: 5%;
 }
 
-.social img{
+/*.social img{
 	width: 40px;
-	margin:100px 0 100px 30px;
+	z-index: 9000;
+	
 }
 .social {
-	background-color: black;
 	height:20px;
-}
+	float: right;
+}*/
 
 /* Desktop */
 @media only screen and (min-width : 1025px) {
