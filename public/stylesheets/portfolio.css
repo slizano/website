@@ -108,6 +108,13 @@ body {
 	width:40px;
 }
 
+.footer {
+		background-color: black;
+		width:100%;
+		padding: 5% 0 7% 7%;
+
+	}
+
 /*.social img{
 	width: 40px;
 	z-index: 9000;
@@ -160,7 +167,7 @@ body {
 		width:100%;
 	}
 
-	.footer{
+	.footer1{
 		background-color: black;
 		width:100%;
 		position: relative;
@@ -171,7 +178,7 @@ body {
 		position: absolute;
 	}
 
-	.buttons {
+	.buttons1 {
 		position: absolute;
 		z-index: 9999;
 		margin-top: 9%;
@@ -179,10 +186,23 @@ body {
 		width:30%;
 	}
 
+	.buttons1 img {
+		width: 90px;
+		margin-left: 5%;
+	}
+
+	.buttons {
+		margin-top: 3%;
+		margin-left: 32%;
+		width:30%;
+	}
+
 	.buttons img {
 		width: 90px;
 		margin-left: 5%;
 	}
+
+
 
 	.text {
 		width: 100%
