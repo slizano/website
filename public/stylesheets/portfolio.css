@@ -29,7 +29,7 @@ body {
 	/*font-family: 'Roboto', sans-serif;*/
 	font-family: 'Raleway', sans-serif;
 	color:black;
-	font-size: 12px;
+	font-size: 10px;
 }
 
 .logo3 {
@@ -108,23 +108,6 @@ body {
 	width:40px;
 }
 
-.footer{
-	background-color: #171717;
-	width:100%;
-	padding:0 0 0 30% ;
-	z-index:9000;
-	position: absolute;
-}
-
-.buttons {
-	margin:7% 0 7% 7%;
-}
-
-.buttons img {
-	width: 90px;
-	margin-left: 5%;
-}
-
 /*.social img{
 	width: 40px;
 	z-index: 9000;
@@ -176,8 +159,29 @@ body {
 	.cover img{
 		width:100%;
 	}
+
+	.footer{
+		background-color: black;
+		width:100%;
+		position: relative;
+	}
+
 	.cover2 img{
 		width:100%;
+		position: absolute;
+	}
+
+	.buttons {
+		position: absolute;
+		z-index: 9999;
+		margin-top: 114px;
+		margin-left: 290px;
+		width:360px;
+	}
+
+	.buttons img {
+		width: 90px;
+		margin-left: 5%;
 	}
 
 	.text {
